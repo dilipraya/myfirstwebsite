@@ -1,0 +1,254 @@
+/* ===========================
+   ======= Body style ======== 
+   =========================== */
+   
+body{
+	/* Setting the default text color, size, page background and a font stack: */
+	background:#ebebeb;
+	font-family: 'Trebuchet MS', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size:87.5%;
+	color:#7d7d7d;
+	line-height: 1.429;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+}
+  
+	
+.body {
+	clear: both; 
+	margin: 0 auto; 
+	width: 70%;
+}
+
+	
+/* ===========================
+   ========= Headings ======== 
+   =========================== */
+h2 {font-size: 1.571em}	/* 22px */
+h3 {font-size: 1.429em}	/* 20px */
+h4 {font-size: 1.286em}	/* 18px */
+h5 {font-size: 1.143em}	/* 16px */
+h6 {font-size: 1em}		/* 14px */
+
+h2, h3, h4, h5, h6 {
+	color:#EE2B32;
+	font-weight: 400;
+	line-height: 1.1;
+	margin-bottom: .8em;
+}
+
+
+/* ===========================
+   ======= Anchor style ====== 
+   =========================== */
+a {
+	outline: 0;
+	}
+
+a:link{
+	padding: 0 1px;
+	color: #7d7d7d;
+	text-decoration: none;
+}
+
+a:visited{
+	color: #7d7d7d;
+}
+
+a:hover, a:active {
+	color: #EE2B32;
+	text-decoration: none;
+}
+
+
+/* ===========================
+   ========= Header ========== 
+   =========================== */
+
+.mainHeader {
+    clear: both;
+    overflow: auto;
+}
+
+#logo {
+    float:left;
+}
+
+
+/* ===========================
+   ===== Main Navigation ===== 
+   =========================== */
+
+nav {
+	margin: 90px 5px 10px 5px;
+    padding: 8px;
+    height: 60px; 
+    width: auto;
+	font-size: 1.143em;
+	line-height: 90px;
+	text-align: center;
+
+/******** White Box ***********/
+	background-color: #f9f9f9;
+  	color: white;
+  	border:2px solid;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	box-shadow: 0 0 5px #888;
+    -moz-box-shadow: 0 0 5px #888;
+    -webkit-box-shadow: 0 0 5px#888;
+}
+
+.mainHeader nav ul {
+	list-style: none; 
+	margin: 0 auto;
+}
+
+.mainHeader nav ul li {
+	margin-right: 20px;
+	float: left; 
+	display: inline; 
+}
+	
+.mainHeader nav a:link{
+	display: inline;
+	height: 60px;
+	padding: 5px 15px;
+	text-decoration: none;
+	font-weight: bold;
+	
+}
+
+.mainHeader nav a:visited{
+	color:black;
+}
+
+.mainHeader nav a:hover, .mainHeader nav a:active{
+	color: #EE2B32;
+}
+	
+.mainHeader nav li a {
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+
+
+/* ===========================
+   ======== Slider =========== 
+   =========================== */
+.slider {
+	margin: 0px 5px 0px 5px;
+    padding: 5px;
+    height: auto; 
+    width: auto;
+
+    background-color: #f9f9f9;
+    color: white;
+	border:2px solid;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+    box-shadow: 0 0 5px #888;
+    -moz-box-shadow: 0 0 5px #888;
+    -webkit-box-shadow: 0 0 5px#888;
+}
+
+.slider ul {
+	list-style: none; 
+	margin: 0 auto;
+}
+
+.slider img {
+	width: 96%;
+	height: auto;
+}
+
+
+/* ===========================
+   ======= Content Area ====== 
+   =========================== */
+
+.mainContent {	
+	margin: 0px 5px 0px 5px;
+    padding: 5px;
+    height: auto; 
+    width: auto;
+
+
+
+	line-height: 20px;
+	text-align: justify;
+}
+
+/*
+.para {
+	width: 100%;
+	float: left;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;	
+}
+*/
+
+/* ===========================
+   ========== Footer ========= 
+   =========================== */
+.mainFooter {
+	margin: 5px 5px 5px 5px;
+    padding: 5px;
+    height: 20px; 
+    width: auto;
+
+    background-color: #f9f9f9;
+    color: white;
+	border:2px solid;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+    box-shadow: 0 0 5px #888;
+    -moz-box-shadow: 0 0 5px #888;
+    -webkit-box-shadow: 0 0 5px#888;
+}
+
+.mainFooter ul {
+	list-style: none; 
+	margin: 0 auto;
+}
+
+
+.mainFooter ul li {
+	float: left; 
+	display: inline; 
+}
+	
+.mainFooter a:link{
+	display: inline;
+	height: 10px;
+	padding: 10px 15px 20px 0px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.mainFooter ul li:nth-of-type(7){
+	float: right;
+}
+
+
+/*
+Content Area
+*/
+.box{
+	background-color: #f9f9f9;
+  	color: white;
+  	border:2px solid;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	box-shadow: 0 0 5px #888;
+    -moz-box-shadow: 0 0 5px #888;
+    -webkit-box-shadow: 0 0 5px#888;
+}
